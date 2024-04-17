@@ -1,7 +1,8 @@
 #top{
     width: 800px;
     background-color: #dcc9f4;
-    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -17,7 +18,8 @@
     width: 800px;
     background-color: #ffd9df;
     height: 800px;
-    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -53,7 +55,6 @@
 #bottom {
     width: 800px;
     height: 300px;
-    padding: 20px;
     margin-left: auto;
     margin-right: auto;
     background-color: #87ceeb;
@@ -65,14 +66,14 @@
     width: 400px;
     height: 100px;
     background-color: #e5dcf0;
-    display: inline-block;
+    display: block;
     
 }
 #bottom-child02{
     width: 400px;
     height: 100px;
     background-color: #e5dcf0;
-    display: inline-block;
+    display: block;
     position: relative;
     left: 200px;
     
@@ -81,7 +82,7 @@
     width: 400px;
     height: 100px;
     background-color: #e5dcf0;
-    display: inline-block;
+    display: block;
     position: relative;
     left: 400px;
 }
